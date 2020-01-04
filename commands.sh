@@ -2,6 +2,7 @@
 # sample-admission-webhook
 # ------------------------
 
+
 cat <<EOF | cfssl genkey - | cfssljson -bare server
 {
   "hosts": [
